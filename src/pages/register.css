@@ -1,0 +1,34 @@
+.pageReg{
+    position: absolute;
+    width: 1440px;
+    height: 1004px;
+    left: 0px;
+    top: 0px;
+    background: #F4F8FF;
+}
+.logoReg{
+    margin-top: 36px;
+    margin-left: 100px;
+    height: 36px;
+    z-index: 2;
+}
+.ill1{
+    position: absolute;
+    left: 50.69%;
+    right: 11.32%;
+    top: 26.05%;
+    bottom: 21.22%;
+    z-index: 1;
+}
+.ill2{
+    width: 929px;
+    height: 800px;
+    left: 929px;
+    top: -214px;
+}
+.ill3{
+    position: absolute;
+    
+    left: 815px;
+    top: 593px;
+}

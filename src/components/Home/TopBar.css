@@ -1,0 +1,326 @@
+.TopBar{
+    position: absolute;
+    /* width: 1440px; */
+    height: 922px;
+    left: 0px;
+    top: 0px;
+    background: #F9FAFF;
+}
+.title{
+    width: 602px;
+    height: 186px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 129.5%;
+    color: #222222;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left:100px;
+    margin-top: 200px;
+}
+.subtitle{
+    width: 602px;
+    height: 72px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #737373;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-left: 100px;
+    /* margin: 0px 385.5px 738px 100px */
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 16px;
+    width: 171px;
+    height: 41px;
+    background: #5484E1;
+    border-radius: 50px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 32px 312.5px 169px 100px;
+}
+.btn a{
+    width: 139px;
+    height: 21px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    /* line-height: 21px; */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-decoration: none;
+}
+.picHome{
+    margin-top: 80px;
+    /* margin-left: 100px;
+    margin-right: 831.34px; */
+    position: absolute;
+    left: 59.02%;
+    right: 0%;
+    top: 25.8%;
+    bottom: 0%;
+    width: 508.16px;
+    height: 488px;
+}
+.desk{
+    color: white;
+    /* width: 1440px; */
+    height: 660px;
+    left: 0px;
+    top: 0px;
+}
+.titleDesk{
+    width: 602px;
+    height: 54px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #222222;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left: 622px;
+    margin-right: 216px;
+    margin-top: 442.82px;
+}
+.teksDesk{
+    width: 602px;
+    height: 168px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #737373;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-left: 622px;
+    margin-right: 216px;
+    margin-top: 16px;
+}
+.three{
+    position: absolute;
+    /* width: 1440px; */
+    height: 804px;
+    left: 0px;
+    top: 1582px;
+    width: max-content;
+    background: #5484E1;
+}
+.kalFirst{
+    margin-top: 140px;
+    margin-left: 339px;
+    width: 800px;
+    height: 54px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.sec{
+    width: 688px;
+    height: 48px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-left: 376px;
+    margin-right: 376px;
+    margin-top: 12px;
+}
+.section-p1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    left: 0px;
+    right: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.box1{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    width: 292px;
+    height: 330px;
+    background: #FFFFFF;
+    border-bottom: 7px solid #C2D4F5;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 24px;
+    margin-top: 60px;
+}
+.name{
+    width: 658px;
+    height: 54px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 54px;
+    text-align: center;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 204px;
+}
+.id{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 16px;
+    color: #686868;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    
+}    
+.four{
+    height: 889px;
+    /* width: 1440px; */
+    left: 0px;
+    right: 0px;
+}
+.title4{
+    width: 658px;
+    height: 54px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.frame5{
+    /* position: absolute; */
+    /* width: 1440px; */
+    height: 712px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(44.71deg, #4056C7 0.49%, #6DC6FD 98.49%);
+    
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 140px 208px;
+    gap: 10px;
+    /* width: 1440px; */
+    height: 539.86px;
+    background: #22294D;
+    box-shadow: 0px -4px 17px rgba(0, 0, 0, 0.11);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.end{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 208px;
+    gap: 10px;
+    /* width: 1440px; */
+    height: 108px;
+    background: #C2D4F5;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+.teks5{
+    width: 610px;
+    height: 54px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 500px 422px 538px 422px;
+    /* margin-left: 422px;
+    margin-right: 422px; */
+}
+.office{
+    width: 125px;
+    height: 26px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 132%;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+}
+.subOffice{
+    width: 537px;
+    height: 72px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 134%;
+    text-align: justify;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 16px 695px 140px 0px;
+}
+.picDesk{
+    position: absolute;
+    margin-left: 216px;
+    
+    
+}

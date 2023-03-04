@@ -1,0 +1,40 @@
+.pageLog{
+    position: absolute;
+    width: 1440px;
+    height: 1004px;
+    left: 0px;
+    top: 0px;
+    background: #F4F8FF;
+}
+.logoLog{
+    margin-top: 36px;
+    margin-left: 100px;
+    height: 36px;
+}
+.pic1{
+    position: absolute;
+    width: 929px;
+    height: 800px;
+    right: 0px;
+    /* left: 511px; */
+    top: 0px;
+    /* bottom: 418px;  */
+    /* z-index: 0; */
+}
+.pic2{
+    position: absolute;
+    width: 761px;
+    height: 350px;
+    top: 593px;
+    
+}
+.pic3{
+    position: absolute;
+    width: 780px;
+    height: 780px;
+    left: 35px;
+    top: 107px;
+    /* background: url(6343825.jpg); */
+    background-blend-mode: darken;
+    
+}
