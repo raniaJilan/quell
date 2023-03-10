@@ -12,14 +12,8 @@ const Layout = ()=>{
                     <img src={Logo1}></img>
                 </div>
                 <ul className="listBut">
-                <div className="headerBtn">
-                    <button className="regis">
-                        <input type="submit" value="Daftar"></input>
-                    </button>
-                    <button className="login">
-                        <input type="submit" value="Masuk"></input>
-                    </button>
-                </div>
+                    <li><a href="" className="regis">Daftar</a></li>
+                    <li><a href="" className="log">Masuk</a></li>
                 </ul>
             </div>
         </section>
