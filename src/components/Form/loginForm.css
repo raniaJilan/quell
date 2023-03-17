@@ -5,16 +5,16 @@
     align-items: flex-end;
     padding: 24px;
     gap: 32px;
-    /* position: absolute; */
+    position: absolute;
     width: 448px;
-    height: 418px;
+    height: 491px;
     /* left: 835px;
     top: 307px; */
     background: rgba(255, 255, 255, 0.95);
     border-bottom: 1px solid #F9F9F9;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04);
     border-radius: 10px;
-    margin: 307px 157px 0px 835px;
+    margin: 240px 157px 0px 835px;
     /* z-index: 200; */
 }
 .inputBox{
@@ -54,7 +54,7 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 24px; 
     line-height: 36px;
     display: flex;
     align-items: center;
@@ -65,7 +65,7 @@
     margin-right: 158.5px;
     
 }
-.lo{
+/* .lo{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -90,20 +90,18 @@
     align-items: center;
     color: #868E96;
     text-decoration: none;
-}
+} */
 .gin{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 8px 16px;
-    width: 90px;
-    height: 32px;
+    /* padding: 8px 16px; */
+    width: 398px;
+    height: 44px;
     background: #5484E1;
-    border-radius: 3px;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+    border-radius: 10px;
+    margin-left: 25px;
     /* margin-bottom: 32.5px;
     margin-left: 1063px; */
 }
@@ -120,7 +118,10 @@
     color: #FFFFFF;
     text-decoration: none;
 }
-.deks{
+.forget{
+    margin-bottom: 32px;
+}
+.forget a{
     width: 98px;
     height: 20px;
     font-family: 'Inter';
@@ -129,9 +130,38 @@
     font-size: 12px;
     line-height: 20px;
     text-align: right;
-    color: #4A4A4A;
+    color: #5484E1;
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin-left: 326px;
+    /* margin-left: 326px; */
+    text-decoration: none;
+    margin-left: 210px;
 }
+.forget input{
+    margin-left: 24px;
+}
+.forget label{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    /* text-align: right; */
+    color: #092540;
+    margin-left: 10px;
+}
+.gotosign p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #092540;
+    margin-top: 50px;
+}
+.gotosign a{
+    color: #5484E1;
+    text-decoration: none;
+}
+

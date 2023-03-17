@@ -1,4 +1,4 @@
-.dashSection{
+.jadwalSection{
     position: absolute;
     height: 1227px;
     left: 0px;
@@ -7,7 +7,18 @@
     bottom: 0px;   
     width: 1500px;
 }
-.navDash{
+.optionDash2{
+    padding: 0px;
+    gap: 23px;
+    position: absolute;
+    width: 250px;
+    height: 1227px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04);
+}
+.navDash2{
     display: flex;
     flex-direction: row;
     justify-content: space-between; 
@@ -21,11 +32,11 @@
     top: 0px;
     background: linear-gradient(44.71deg, #4056C7 0.49%, #6DC6FD 98.49%);
 }
-.logoDash{
+.logoDash2{
     margin-top: 20px;
     margin-left: 24px;
 }
-.btnDash{
+.btnDash2{
     position: absolute;
     display: flex;
     flex-direction: row;
@@ -38,7 +49,7 @@
     border-radius: 29px;
     margin-left: 823px;
 }
-.btnDash a{
+.btnDash2 a{
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 700;
@@ -49,20 +60,20 @@
     color: #FFFFFF;
     text-decoration: none;
 }
-.sideBar{
+.sideBar2{
     margin-top: 101px;
 }
-.sideBar li{
+.sideBar2 li{
     list-style: none;
     margin-bottom: 32px;
 }
-.sideBar a{
+.sideBar2 a{
     text-decoration: none;
 }
-.dash:hover{
+.dash2:hover{
     color: #5484E1;
 }
-.sideBar span{
+.sideBar2 span{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -72,11 +83,11 @@
     color: #868E96;
     margin-left: 22px;
 }
-.menu i{
+.menu2 i{
     font-size: 40px;
     color: white;
 }
-.titleDash{
+.titleDash2{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -90,7 +101,7 @@
     background: #FFFFFF;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04);
 }
-.titleDash h1{
+.titleDash2 h1{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -100,173 +111,65 @@
     align-items: center;
     color: #34395E;
 }
-.boxDash{
+.contTop2{
     position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-right: 20px;
-    
-}
-.boxy{
-    margin-left: 282px;
-}
-.boxDash1{
-    
-    margin-top: 230px;
-    padding: 16px 15px;
-    gap: 23px;
-    width: 289px;
-    height: 112px;
+    width: 1176px;
+    height: 92px;
     background: #FFFFFF;
+    border-bottom: 1px solid #F9F9F9;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04);
     border-radius: 10px;
-    
+    top: 235px;
+    right: 32px;
 }
-.boxDash2{
+.contTop2 h1{
     position: absolute;
-    width: 374px;
-    height: 112px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    left: 27px;
+    top: 24px;
+}
+.datepick2{
+    position: absolute;
+    left: 110px;
+    top: 24px;
+}
+.buttcon2{
+    position: absolute;
+    right: 24px;
+    top: 24px;
+}
+.search2 input{
+    position: absolute;
+    width: 567px;
+    height: 44px;
+    border: 1px solid #DEE2E6;
     border-radius: 10px;
-    margin-top: 230px;
-    padding: 16px 15px;
-    left: 323px;
-    
-}
-.boxDash3{
-    position: absolute;
-    padding: 16px 15px;
-    gap: 23px;
-    width: 431px;
-    height: 112px;
     background: #FFFFFF;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04);
-    border-radius: 10px;
-    margin-top: 230px;
-    margin-left: 733px;
-    
+    left: 415px;
+    top: 24px;
 }
-
-.calenderDash{
-    position: absolute;
-    padding: 24px;
-    width: 378px;
-    height: 649px;
-    background: #FFFFFF;
-    box-shadow: 0px 0.5px 2px rgba(65, 78, 98, 0.12), 0px 0px 1px rgba(65, 78, 98, 0.05);
-    border-radius: 10px;
-    margin-left: 282px;
-    margin-top: 400px;
-}
-.optionDash{
-    padding: 0px;
-    gap: 23px;
-    position: absolute;
-    width: 250px;
-    height: 1227px;
-    left: 0px;
-    top: 0px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04);
-}
-.contentDash{
+.contentDash2{
     position: absolute;
     /* padding: 16px 24px 24px; */
     gap: 16px;
-    width: 732px;
+    width: 1176px;
     height: 735px;
     background: white;
     border-bottom: 1px solid #F9F9F9;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04);
     border-radius: 10px;
     right: 32px;
-    top: 400px;
+    margin-top: 354px;
 }
-.rec{
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    background: linear-gradient(44.71deg, #4056C7 0.49%, #6DC6FD 98.49%);
-    border-radius: 3px;
-    padding: 16px 15px;
+.butCon2{
+    margin-left: 645px;
+    margin-top: 24px;
 }
-.rec img{
-    position: absolute;
-    height: 27px;
-    margin-top: 25px;
-    margin-left: 27px;
-}
-.boxid{
-    position: absolute;
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 18px;
-    color: #98A6AD;
-    margin-left: 125px;
-}
-.boxname{
-    position: absolute;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 27px;
-    color: #666666;
-    margin-left: 125px;
-    margin-top: 55.5px;
-}
-.butCon{
-    position: absolute;
-    margin-left: 201px;
-}
-.butOut{
-    position: absolute;
-    
-}
-.borBut{
-    width: 360px;
-    height: 0px;
-    border: 1px solid #E9E9E9;
-    margin-bottom: 16px;
-}
-.tabelDaftar{
-    position: absolute;
-    width: 684px;
-    height: 114px;
-    background: white;
-    border-radius: 10px;
-    top: 76px;
-    left: 24px;
-    border-color: #F3F3F3;
-    margin-top: 29px;
-    border: 1px solid #F3F3F3;
-}
-.tabelDaftar h1{
-    position: absolute;
-    /* margin-top: -10px; */
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
-    margin-left: 27px;
-}
-.tabelDaftar span{
-    margin-left: 105px;
-}
-.contable{
-    width: 684px;
-    height: 57px;
-    bottom: 0px;
-    background: #F3F3F3;
-    border-radius: 10px;
-}
-    
-.teksCont{
+.teksCont2{
     position: absolute;
     font-family: 'Poppins';
     font-style: normal;
@@ -276,23 +179,54 @@
     top: 29px;
     left: 24px;
 }
-.fillcont Button{
+.fillcont2 Button{
     top: 16px;
     left: 350px;
 }
-.fillcont{
-    height: 200px;
-}
 .fillcont2{
-    position: absolute;
     height: 200px;
 }
-.fillcont3{
+.fillcont22{
     position: absolute;
     height: 200px;
     margin-top: 200px;
 }
-.footTgs1{
+.fillcont32{
+    position: absolute;
+    height: 200px;
+    margin-top: 400px;
+}
+.tabelDaftar2{
+    position: absolute;
+    width: 1078px;
+    height: 114px;
+    background: white;
+    border-radius: 10px;
+    top: 76px;
+    left: 24px;
+    margin-top: 29px;
+    border: 1px solid #F3F3F3;
+}
+.tabelDaftar2 h1{
+    position: absolute;
+    /* margin-top: -10px; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 27px;
+}
+.tabelDaftar2 span{
+    margin-left: 105px;
+}
+.contable2{
+    width: 1078px;
+    height: 57px;
+    bottom: 0px;
+    background: #F3F3F3;
+    border-radius: 10px;
+}
+.footTgs2{
     position: absolute;
     width: 1250px;
     height: 61px;
@@ -301,11 +235,11 @@
     background: #FAFBFD;
     border-top: 1px solid #E3EAEF;
 }
-.footTgs1 p{
+.footTgs2 p{
     margin-left: 32px;
     margin-top: 21px;
     color: #98A6AD;
 }
-.footTgs1 span{
+.footTgs2 span{
     color: #5484E1;
 }

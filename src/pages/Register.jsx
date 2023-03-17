@@ -11,11 +11,13 @@ import Vector2R from "../assets/Vector2R.svg"
 const Register = ()=>{
     return(
         <section className="pageReg">
-            <RegForm/>
+             
            <div className="wholeReg">
+           
             <div className="logoReg">
                 <img src={Logo1}></img>
             </div>
+            <RegForm/>
             <div className="picReg">
                 <div className="ill1">
                     <img src={picReg}></img>

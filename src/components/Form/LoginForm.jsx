@@ -13,18 +13,25 @@ const LoginForm =()=>{
                         </div>
                         <div className="inputBox">
                             <span className="detail">Password</span>
-                            <input type="text" placeholder="Masukkan Password" required></input>
+                            <input type="password" placeholder="Masukkan Password" required></input>
                         </div>
-                        <p className="deks">Lupa kata sandi?</p>
+                        <div className="forget">
+                            <input type="checkbox" id="check"></input>
+                            <label for="check">Ingat Saya</label>
+                            <a href="#">Lupa kata sandi?</a>
+                            {/* <p className="deks">Lupa kata sandi?</p> */}
+                        </div>
+                        
                         <div className="buttonLog">
-                            <div className="lo">
+                            {/* <div className="lo">
                                 <a href="a">Daftar</a>
-                            </div>
+                            </div> */}
                             <div className="gin">
-                                <a href="a">Masuk</a>
+                                <a href="/mainDash">Masuk</a>
                             </div>
-                            
-                            
+                        </div>
+                        <div className="gotosign">
+                            <center><p>Belum Punya Akun?<a href="/register"> Daftar Akun</a></p></center>
                         </div>
                     </div>
                 </form>

@@ -5,6 +5,7 @@
     left: 0px;
     top: 0px;
     background: #F4F8FF;
+    bottom: 0px;
 }
 .logoLog{
     margin-top: 36px;
@@ -15,8 +16,8 @@
     position: absolute;
     width: 929px;
     height: 800px;
-    right: 0px;
-    /* left: 511px; */
+    /* right: 0px; */
+    left: 511px;
     top: 0px;
     /* bottom: 418px;  */
     /* z-index: 0; */
@@ -30,11 +31,9 @@
 }
 .pic3{
     position: absolute;
-    width: 780px;
-    height: 780px;
-    left: 35px;
-    top: 107px;
-    /* background: url(6343825.jpg); */
-    background-blend-mode: darken;
-    
+    width: 647px;
+    height: 482px;
+    left: 100px;
+    top: 301px;
+
 }

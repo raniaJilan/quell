@@ -8,7 +8,8 @@
     right: 0px;
     bottom: 0px;
 }
-.Logo1{
+.verifLogo{
+    position: absolute;
     margin-top: 36px;
     margin-left: 100px;
     height: 36px;
@@ -29,6 +30,23 @@
     align-items: center;
     color: #000000;
 }
+.repeat{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    margin-top: 807px;
+}
+.repeat a{
+    text-decoration: none;
+    color: #5484E1;
+}
+.emailV{
+    position: absolute;
+    top: 162px;
+    left: 473px;
+}
 .vp1{
     position: absolute;
     left: 816px;
@@ -45,6 +63,13 @@
     position: absolute;
     top: 700px;
     left: -50px;
+}
+.vp4{
+    position: absolute;
+    width: 761px;
+    height: 655px;
+    left: -232px;
+    top: -125px;
 }
 .verifDes{
     position: absolute;

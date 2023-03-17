@@ -21,6 +21,9 @@
     margin-left:100px;
     margin-top: 200px;
 }
+.title span{
+    color: #5484E1;
+}
 .subtitle{
     width: 602px;
     height: 72px;
@@ -68,16 +71,12 @@
     text-decoration: none;
 }
 .picHome{
-    margin-top: 80px;
-    /* margin-left: 100px;
-    margin-right: 831.34px; */
     position: absolute;
     left: 59.02%;
     right: 0%;
-    top: 25.8%;
-    bottom: 0%;
     width: 508.16px;
     height: 488px;
+    margin-top:118px;
 }
 .desk{
     color: white;
@@ -101,6 +100,9 @@
     margin-right: 216px;
     margin-top: 442.82px;
 }
+.titleDesk span{
+    color: #5484E1;
+}
 .teksDesk{
     width: 602px;
     height: 168px;
@@ -117,30 +119,13 @@
     margin-right: 216px;
     margin-top: 16px;
 }
-/* .three{
-    position: absolute; */
-    /* width: 1440px; */
-    /* height: 804px; */
-    /* left: 0px;
-    top: 1582px;
-    width: max-content;
-    background: #5484E1;
-}*/
-/* .kalFirst{
-    width: 800px;
-    height: 54px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 54px;
-    display: flex;
-    align-items: center;
-    color: #FFFFFF;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-} */
+.elips{
+    position: absolute;
+}
+.elips2{
+    position: absolute;
+    right: 0%;
+}
 .first{
     font-family: 'Poppins';
     font-size: 36px;
@@ -152,7 +137,8 @@
     font-size: 16px;
     color: #FFFFFF;
     width: 688px;
-    align-items: center;
+    position: absolute;
+    left: 376px;
 }
 .section-p1{
     display: flex;
@@ -165,7 +151,7 @@
     margin-right: 100px;
 }
 .box1{
-    box-sizing: border-box;
+    box-sizing: border-box; 
     display: flex;
     flex-direction: column;
     
@@ -180,22 +166,31 @@
     order: 0;
     flex-grow: 1;
     margin: 24px;
-    margin-top: 60px;
+    margin-top: 120px;
 } 
-/* .name{
+ .name{
     font-family: 'Poppins';
     font-size: 30px;
     text-align: center;
     color: #000000;
+    position: absolute;
+    margin-bottom: 0px;
+    margin-top: 200px;
 }
 .id{
     font-family: 'Poppins';
     font-size: 16px;
     color: #686868;
-    
-}      */
+    position: absolute;
+    margin-top: 250px;
+}      
+.picbox{
+    margin-top: 58px;
+    height: 140px;
+}
+
 .four{
-    height: 804px;
+    height: 904px;
     /* width: 1440px; */
     left: 0px;
     right: 0px;
@@ -220,10 +215,50 @@
     order: 0;
     flex-grow: 0;
 }
+.create{
+    margin-left: 740px;
+    height: 155px;
+    width: 720.15px;
+    border-bottom: 1px solid #C4C4C4;
+}
+.create h1{
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #5484E1;
+    
+}
+.create h3{
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+    margin-left: 77px;
+}
+.create p{
+    position: absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 132%;
+    color: #686868;
+    width: 463px;
+    margin-top: 81px;
+    margin-left: 77px;
+    
+}
 .frame5{
     /* position: absolute; */
     /* width: 1440px; */
-    height: 712px;
+    height: 812px;
     left: 0px;
     top: 0px;
     background: linear-gradient(44.71deg, #4056C7 0.49%, #6DC6FD 98.49%);
@@ -272,6 +307,24 @@
     /* margin-left: 422px;
     margin-right: 422px; */
 }
+.logfoot{
+    margin-top: 100px;
+}
+.logfoot p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    color: white;
+}
+.line{
+    width: 188px;
+    height: 5px;
+    background: #C2D4F5;
+    margin-top: 28px;
+    margin-bottom: 40px;
+}
 .office{
     width: 125px;
     height: 26px;
@@ -305,8 +358,7 @@
 .picDesk{
     position: absolute;
     margin-left: 216px;
-    width: 300px;
-    height: 70px;
+    font-size: 100px;
 }
 .t4{
     font-family: 'Poppins';
@@ -319,7 +371,11 @@
     margin-top: 140px;
     margin-left: 200px;
 }
+.t4 span{
+    color: #5484E1;
+}
 .pic4{
+    position: absolute;
     margin-top: 32px;
     width: 484.5px;
     height: 401.12px;
@@ -356,4 +412,27 @@
     width: 211px;
     height: 301px;
     background: url(itay-verchik-6ZKGBzrDd3I-unsplash-removebg-preview.png), rgba(191, 191, 191, 0.2);
+}
+.footRight{
+    position: absolute;
+    color : white;
+    margin-left: 982px;
+    margin-top: 100px;
+}
+.footRight h1{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}
+.footRight p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 38px;
+}
+.footRight img{
+    margin-right: 35px;
+    margin-top: 27px;
 }
