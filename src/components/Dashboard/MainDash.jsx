@@ -1,5 +1,6 @@
 import React from "react";
 import './mainDash.css'
+import { Link } from "react-router-dom";
 import Logo1 from '../../assets/Logo1.svg';
 import dash from '../../assets/dash.svg';
 import tgs from '../../assets/dashboard/tgs.svg';
@@ -24,28 +25,28 @@ const mainDash = ()=>{
             <div className="sideBar">
                 <ul>
                     <li>
-                        <a href="/mainDash" className="dash">
+                    <Link to="/mainDash">
                         <img src={dash}></img>
                         <span>Dashboard</span>
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="/tugasqu" className="tugas">
+                        <Link to="/tugasqu">
                         <img src={tgs}></img>
                         <span>TugasQu</span>
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="/jadwalqu" className="jadwal">
+                        <Link to="/jadwalqu">
                         <img src={jdwl}></img>
                         <span>JadwalQu</span>
-                        </a>
+                        </Link> 
                     </li>
                     <li>
-                        <a href="/uangqu" className="keuangan">
+                        <Link to="/uangqu">
                         <img src={uang}></img>
                         <span>KeuanganQu</span>
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </div>

@@ -2,6 +2,7 @@ import styled from "styled-components";
 import React from "react";
 import "./TopBar.css"
 import Layout from "../partials/Layout";
+import { Link } from "react-router-dom";
 // assets
 import Group from '../../assets/Group.svg';
 import Logo1 from '../../assets/Logo1.svg';
@@ -37,7 +38,7 @@ const TopBar =()=>{
                     </p>
                     
                     <button className="btn">
-                        <a href="/register">Gabung Sekarang!</a>
+                        <Link to="/register">Gabung Sekarang!</Link>
                     </button>
                     
                 </div>

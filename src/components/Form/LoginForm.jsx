@@ -1,5 +1,6 @@
 import React from "react";
 import "./loginForm.css"
+import { Link } from "react-router-dom";
 
 const LoginForm =()=>{
     return (
@@ -27,7 +28,7 @@ const LoginForm =()=>{
                                 <a href="a">Daftar</a>
                             </div> */}
                             <div className="gin">
-                                <a href="/mainDash">Masuk</a>
+                                <Link to="/mainDash">Masuk</Link>
                             </div>
                         </div>
                         <div className="gotosign">

@@ -1,5 +1,6 @@
 import React from "react";
 import './jadwal.css';
+import { Link } from "react-router-dom";
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { DatePicker } from '@mui/x-date-pickers/DatePicker';
@@ -20,28 +21,28 @@ const JadwalQu =()=>{
             <div className="sideBar2">
                 <ul>
                     <li>
-                        <a href="/mainDash" className="dash2">
+                    <Link to="/mainDash">
                         <img src={dash}></img>
                         <span>Dashboard</span>
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="/tugasqu" className="tugas2">
+                        <Link to="/tugasqu">
                         <img src={tgs}></img>
                         <span>TugasQu</span>
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="/jadwalqu" className="jadwal2">
+                        <Link to="/jadwalqu">
                         <img src={jdwl}></img>
                         <span>JadwalQu</span>
-                        </a>
+                        </Link> 
                     </li>
                     <li>
-                        <a href="/uangqu" className="keuangan2">
+                        <Link to="/uangqu">
                         <img src={uang}></img>
                         <span>KeuanganQu</span>
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </div>
