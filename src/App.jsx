@@ -4,7 +4,7 @@ import "./App.css";
 import {Route, Routes} from 'react-router-dom'
 import Login from "./pages/Login";
 import Register from "./pages/Register";
-import Verifikasi from "./pages/verifikasi";
+// import Verifikasi from "./pages/verifikasi";
 import MainDash from "./components/Dashboard/MainDash";
 import Tugas from "./components/tugasQu/Tugas";
 import JadwalQu from "./components/jadwal/JadwalQu";
@@ -20,7 +20,7 @@ export default function App(){
             <Route path="/" element={<TopBar/>}/>
             <Route path='/login' element={<Login />} />
             <Route path='/register' element={<Register />} />
-            <Route path='/verifikasi' element={<Verifikasi />} />
+            {/* <Route path='/verifikasi' element={<Verifikasi />} /> */}
             <Route path="/mainDash" element={<MainDash/>}/>
             <Route path="/tugasqu" element={<Tugas/>}/>
             <Route path="/jadwalqu" element={<JadwalQu/>}/>
