@@ -31,7 +31,7 @@ const RegForm = ()=>{
                         </div>
                         <div className="buttonLogReg">
                             <div className="re">
-                                <a href="/verifikasi">Daftar</a>
+                                <a href="a">Daftar</a>
                             </div>
                         </div>
                         <div className="gotologin">
